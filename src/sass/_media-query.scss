@@ -1,0 +1,14 @@
+@media screen and (max-width: 720px) {
+    button > :last-child {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    main {
+        padding-block-end: 3rem;
+    }
+    .bottom-component {
+        align-items: end;
+    }
+}

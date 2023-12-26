@@ -1,0 +1,21 @@
+@import 'variables';
+
+.top-component {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 30vh;
+    // gap: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+
+h1 {
+    font-size: 5rem;
+    line-height: 1.1;
+}

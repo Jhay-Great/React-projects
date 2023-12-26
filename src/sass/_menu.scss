@@ -1,0 +1,47 @@
+.menu {
+    position: absolute;
+    top: 75px;
+
+    width: 150px;
+    min-height: 100px;
+    list-style: none;
+    font-size: 1.3rem;
+    font-weight: 500;
+    border: 1px solid gray;
+    border-radius: 10px;
+    cursor: pointer;
+
+    color: $secondary-blue-color-darker;
+    background-color: $secondary-blue-color;
+    box-shadow: 0px 2px 4px #0007;
+
+    &:hover, &:focus {
+        transition:  all 200ms ease;
+    }
+
+    li {
+        word-spacing: 2px;
+        margin-block: .5rem;
+        width: 100%;
+    }
+
+    .easy:hover,
+    .medium:hover,
+    .hard:hover {
+        
+        border-left: 5px solid;
+        transition: all 200ms ease;
+    }
+    
+    .easy:hover {
+        border-left-color: green;
+    }
+    .medium:hover {
+        border-left-color: yellow;
+    }
+    .hard:hover {
+        border-left-color: red;
+    }
+    
+    
+}

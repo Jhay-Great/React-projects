@@ -1,0 +1,44 @@
+@import 'variables';
+
+button {
+    height: 50px;
+    padding: .8rem 1.1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: $secondary-blue-color;
+    font-weight: 800;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    transition: border
+     0.25s;
+    background-color: $secondary-blue-color-darker;
+}
+button:hover,
+// button:focus,
+button:active {
+    // background-color: $secondary-blue-color-light; contemplating usage
+    background-color: $secondary-blue-color;
+    color: $main-blue-color;
+    border: 1px solid $secondary-blue-color-darker-tinted;
+    box-shadow: 0px 2px 3px #00000075;
+    transition: all 250ms ease;
+}
+// button:focus {
+//     border: 1px solid $secondary-blue-color-darker-tinted;
+//     transition: all 250ms ease;
+
+// }
+
+button img {
+    width: 20px;
+}
+// svg {
+//     fill: red;
+//     stroke: red;
+//     width: 40px;
+// }
