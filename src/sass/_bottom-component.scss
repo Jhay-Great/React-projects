@@ -27,6 +27,10 @@ input[type="number"]:active,
 input[type="number"]:focus {
     border: 1px solid $secondary-blue-color;
 }
+input[type="number"]::placeholder {
+    font-size: .9rem;
+    letter-spacing: normal;
+}
 
 .display-messages > * {
     width: 300px;
