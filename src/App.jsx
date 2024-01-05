@@ -31,7 +31,7 @@ function App() {
   const reset = function() {
     setRandomNumber(number);
     displayMessage(`Enter any number between 1 and ${maxNumber}`)
-    setScore(score);
+    setScore(20);
     setHighScore(highScore);
     clearInput();
     setH1('?');
